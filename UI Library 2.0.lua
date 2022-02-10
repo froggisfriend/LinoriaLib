@@ -7,10 +7,12 @@ local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
 local ProtectGui = function(asd)
-    if syn then
+if syn then 
         syn.protect_gui(asd)
-    elseif gethui then
-    asd.Parent = gethui()
+        else
+        asd.Parent = gethui()
+end
+    
 end
     
 
