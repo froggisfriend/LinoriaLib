@@ -7,8 +7,6 @@ local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
 local ScreenGui = Instance.new('ScreenGui');
-
-
 if syn ~= nil then 
 syn.protect_gui(ScreenGui)
 end
