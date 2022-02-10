@@ -1,3 +1,4 @@
+print'bitch'
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
