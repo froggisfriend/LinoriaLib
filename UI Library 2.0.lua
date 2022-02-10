@@ -8,7 +8,9 @@ local Mouse = LocalPlayer:GetMouse();
 
 local ScreenGui = Instance.new('ScreenGui');
 if syn then 
+if syn.protect_gui then 
 syn.protect_gui(ScreenGui)
+end
 end
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
