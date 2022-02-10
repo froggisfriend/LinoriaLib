@@ -1,4 +1,4 @@
-print('Something isnt right..')
+--print('Something isnt right..')
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
