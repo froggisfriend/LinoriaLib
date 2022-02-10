@@ -7,7 +7,7 @@ local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
 local ScreenGui = Instance.new('ScreenGui');
-(protectgui or syn.protect_gui or (function(asd) return end))(ScreenGui);
+(protectgui or syn.protect_gui or (function(asd) return asd end))(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
 if not gethui then 
